@@ -1,0 +1,59 @@
+.cardsView {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 0 10px;
+}
+.card {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #d5d5d5;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+.cardWrapper {
+  width: 24.8%;
+  padding: 0 10px;
+}
+.image {
+  text-align: center;
+}
+.card img {
+  max-width: 100%;
+  height: 150px;
+}
+.time {
+  font-size: 12px;
+}
+.card h1 {
+  font-size: 16px;
+  margin: 0 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-group {
+  display: flex;
+  padding: 0 10px;
+}
+.btn-group button {
+  background-color: transparent;
+  color: #0d6efd;
+}
+.btn-group button:hover {
+  background-color: #0d6efd;
+  color: #ffffff;
+}
+.btn-group button.active {
+  color: #ffffff;
+}
+.filterDropdown {
+  margin: 10px;
+  padding: 0 10px;
+}
+.dateTime,
+.action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

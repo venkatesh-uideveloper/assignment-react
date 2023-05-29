@@ -1,0 +1,32 @@
+header {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: rgb(13, 110, 253);
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+header h1 {
+  margin: 0;
+  font-size: 30px;
+}
+.nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+.nav a {
+  margin: 0 10px;
+  display: inline-block;
+  color: #ffffff;
+  padding: 6px 12px;
+  font-size: 14px;
+}
+.nav a:hover,
+.nav a.active {
+  background-color: #ffffff;
+  color: rgb(13, 110, 253);
+}

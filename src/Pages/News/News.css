@@ -1,0 +1,45 @@
+.formWrapper {
+  padding: 0 15px;
+}
+#news {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 10px 0;
+}
+#news td,
+#news th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#news tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+#news tr:hover {
+  background-color: #ddd;
+}
+#news th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #333333;
+  color: #ffffff;
+}
+.formInput {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+.formInput input {
+  margin-bottom: 15px;
+}
+.formInput textarea {
+  margin-bottom: 15px;
+}
+.formInput button {
+  margin: 0;
+}
+.responsiveTable {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
